@@ -312,23 +312,17 @@ mod_tool_gnome_terminal_config_for_profile () {
 
 	gsettings set "${path}" use-theme-colors false
 
-	gsettings set "${path}" use-theme-transparency false
+	#gsettings set "${path}" use-theme-transparency false
 
-	gsettings set "${path}" use-transparent-background true
+	#gsettings set "${path}" use-transparent-background true
 
-	gsettings set "${path}" background-transparency-percent 15
+	#gsettings set "${path}" background-transparency-percent 15
 
 	#gsettings set "${path}" foreground-color 'rgb(255,255,255)'
 
 	gsettings set "${path}" foreground-color 'rgb(170,170,170)'
 
 	gsettings set "${path}" background-color 'rgb(0,0,0)'
-
-	#gsettings set "${path}" use-theme-transparency false
-
-	#gsettings set "${path}" use-transparent-background true
-
-	#gsettings set "${path}" background-transparency-percent 15
 
 	gsettings set "${path}" visible-name 'Default'
 
